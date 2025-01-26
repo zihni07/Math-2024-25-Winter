@@ -51,6 +51,7 @@ $$
 ### 4. Calculate the area under the sine curve over the interval $[0, \pi]$:
 
 We are given:
+
 $$
 P = \int_{0}^{\pi} \sin(x) \, dx
 $$
@@ -70,6 +71,7 @@ $$
 $$
 
 The area under the sine curve is:
+
 $$
 2
 $$
