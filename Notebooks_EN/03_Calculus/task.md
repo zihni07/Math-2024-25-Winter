@@ -1,28 +1,51 @@
-### 1. Integral of $f(x) = 2x + 1$ over $[0, \pi]$:
+### Cevaplar
+
+#### 2. \( [0, \pi] \) aralığında integralleri hesaplayın ve görselleştirin:
+- \( f(x) = 2x + 1 \)
+  $$
+  \int_{0}^{\pi} (2x + 1) \, dx = \left[ x^2 + x \right]_0^{\pi} = \pi^2 + \pi
+  $$
+
+- \( g(x) = x^2 \)
+  $$
+  \int_{0}^{\pi} x^2 \, dx = \left[ \frac{x^3}{3} \right]_0^{\pi} = \frac{\pi^3}{3}
+  $$
+
+Bu fonksiyonları ve alanları GeoGebra'da grafik olarak görselleştirebilirsiniz.
+
+---
+
+#### 3. Verilen sınırlar arasındaki bölgenin alanını hesaplayın:
+Bölge şu sınırlarla tanımlanmıştır: \( x = 1 \), \( x = 2 \), \( y = 0 \) ve \( y = x^2 + 1 \).
+
+Bölge alanı:
 $$
-\int_{0}^{\pi} (2x + 1) \, dx = \left[ x^2 + x \right]_{0}^{\pi}
+A = \int_{1}^{2} [(x^2 + 1) - 0] \, dx = \int_{1}^{2} (x^2 + 1) \, dx
 $$
 $$
-= (\pi^2 + \pi) - (0^2 + 0) = \pi^2 + \pi
+A = \left[ \frac{x^3}{3} + x \right]_1^{2} = \left( \frac{8}{3} + 2 \right) - \left( \frac{1}{3} + 1 \right)
+$$
+$$
+A = \frac{8}{3} + 2 - \frac{1}{3} - 1 = \frac{7}{3} + 1 = \frac{10}{3}
 $$
 
-### 2. Integral of $g(x) = x^2$ over $[0, \pi]$:
+---
+
+#### 4. \( [0, \pi] \) aralığında sinüs fonksiyonunun altındaki alanı hesaplayın:
+Soru şu şekilde verilen integrali hesaplamaktır:
 $$
-\int_{0}^{\pi} x^2 \, dx = \left[ \frac{x^3}{3} \right]_{0}^{\pi}
-$$
-$$
-= \frac{\pi^3}{3} - \frac{0^3}{3} = \frac{\pi^3}{3}
+P = \int_{0}^{\pi} \sin(x) \, dx
 $$
 
-### Final Results:
-- The integral of $f(x) = 2x + 1$ over $[0, \pi]$ is:
+İntegrali hesaplayalım:
 $$
-\pi^2 + \pi
+\int \sin(x) \, dx = -\cos(x) + C
+$$
+$$
+P = \left[-\cos(x)\right]_0^{\pi} = -\cos(\pi) + \cos(0)
+$$
+$$
+P = -(-1) + 1 = 2
 $$
 
-- The integral of $g(x) = x^2$ over $[0, \pi]$ is:
-$$
-\frac{\pi^3}{3}
-$$
-
-
+Bu, \( [0, \pi] \) aralığında sinüs eğrisi altındaki alanın \( 2 \) birim kare olduğunu gösterir.
