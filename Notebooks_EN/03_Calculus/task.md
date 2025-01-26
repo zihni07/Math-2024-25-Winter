@@ -44,6 +44,7 @@ $$
 $$
 
 The area of the region is:
+
 $$
 \frac{10}{3}
 $$
