@@ -1,78 +1,70 @@
 ## Solutions:
 
-### 2. Calculate integrals over the interval $[0, \pi]$:
+### 1. Draw in a single GeoGebra notebook the following functions:
+The given functions are:
+- $f(x) = x^2$
+- $g(x) = \sqrt{x}$
+- $h(x) = \frac{1}{x}$
+- $j(x) = \sin(x)$
 
-#### (a) For $f(x) = 2x + 1$:
-$$
-\int_{0}^{\pi} (2x + 1) \, dx = \left[ x^2 + x \right]_{0}^{\pi}
-$$
-$$
-= (\pi^2 + \pi) - (0^2 + 0) = \pi^2 + \pi
-$$
+![alt text](image.png)
 
-#### (b) For $g(x) = x^2$:
+#### Find the value of all the above functions at $x = 2$:
+- For $f(x)$:
 $$
-\int_{0}^{\pi} x^2 \, dx = \left[ \frac{x^3}{3} \right]_{0}^{\pi}
-$$
-$$
-= \frac{\pi^3}{3} - \frac{0^3}{3} = \frac{\pi^3}{3}
+f(2) = 2^2 = 4
 $$
 
-### 3. Calculate the area of the region bounded by the lines $x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$:
-The area is determined by calculating the definite integral of the curve $y = x^2 + 1$ from $x = 1$ to $x = 2$.
-
-#### Set up the integral:
+- For $g(x)$:
 $$
-\text{Area} = \int_{1}^{2} (x^2 + 1) \, dx
+g(2) = \sqrt{2}
 $$
 
-#### Solve the integral:
+- For $h(x)$:
 $$
-\int (x^2 + 1) \, dx = \frac{x^3}{3} + x
-$$
-$$
-\text{Area} = \left[ \frac{x^3}{3} + x \right]_1^2
-$$
-$$
-= \left( \frac{2^3}{3} + 2 \right) - \left( \frac{1^3}{3} + 1 \right)
-$$
-$$
-= \left( \frac{8}{3} + 2 \right) - \left( \frac{1}{3} + 1 \right)
-$$
-$$
-= \frac{10}{3}
+h(2) = \frac{1}{2}
 $$
 
-The area of the region is:
+- For $j(x)$:
+$$
+j(2) = \sin(2)
+$$
+(Using a calculator, $\sin(2) \approx 0.9093$)
 
-$$
-\frac{10}{3}
-$$
+#### Summary:
+- $f(2) = 4$
+- $g(2) = \sqrt{2} \approx 1.414$
+- $h(2) = 0.5$
+- $j(2) \approx 0.9093$
 
-### 4. Calculate the area under the sine curve over the interval $[0, \pi]$:
+### 2. Let $f(x) = 3x - 1$ and $g(x) = \sqrt{x}$. Find:
 
-We are given:
-
+#### (a) $f(g(x))$:
+Substitute $g(x)$ into $f(x)$:
 $$
-P = \int_{0}^{\pi} \sin(x) \, dx
-$$
-
-#### Solve the integral:
-$$
-\int \sin(x) \, dx = -\cos(x)
-$$
-$$
-P = \left[ -\cos(x) \right]_0^\pi
-$$
-$$
-= \left( -\cos(\pi) \right) - \left( -\cos(0) \right)
-$$
-$$
-= -(-1) - (-1) = 1 + 1 = 2
+f(g(x)) = f(\sqrt{x}) = 3\sqrt{x} - 1
 $$
 
-The area under the sine curve is:
+#### (b) $g(f(x))$:
+Substitute $f(x)$ into $g(x)$:
+$$
+g(f(x)) = g(3x - 1) = \sqrt{3x - 1}
+$$
 
+#### (c) $f(f(x))$:
+Substitute $f(x)$ into itself:
 $$
-2
+f(f(x)) = f(3x - 1) = 3(3x - 1) - 1 = 9x - 3 - 1 = 9x - 4
 $$
+
+#### (d) $g(g(x))$:
+Substitute $g(x)$ into itself:
+$$
+g(g(x)) = g(\sqrt{x}) = \sqrt{\sqrt{x}} = x^{1/4}
+$$
+
+### Final Answers:
+- $f(g(x)) = 3\sqrt{x} - 1$
+- $g(f(x)) = \sqrt{3x - 1}$
+- $f(f(x)) = 9x - 4$
+- $g(g(x)) = x^{1/4}$
