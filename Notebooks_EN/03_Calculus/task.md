@@ -33,6 +33,7 @@ $$
 $$
 j(2) = \sin(2)
 $$
+
 (Using a calculator, $\sin(2) \approx 0.9093$)
 
 #### Summary:
