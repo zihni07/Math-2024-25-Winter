@@ -81,6 +81,69 @@ $$
 
 
 
+![alt text](image-4.png)
+### First Limit:
+$$
+\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n}
+$$
+Factor out $n^2$ from both the numerator and denominator:
+
+$$
+\lim_{n \to \infty} \frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})}
+$$
+
+ $n^2$:
+
+$$
+\lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}
+$$
+
+Since $\frac{3}{n} \to 0$ and $\frac{2}{n} \to 0$ as $n \to \infty$, we get:
+
+$$
+\frac{1 + 0}{2 - 0} = \frac{1}{2}
+$$
+
+### Second Limit:
+$$
+\lim_{n \to \infty} \frac{(2n + 3)^3}{n^3 - 1}
+$$
+
+Factor out $n$ from $2n + 3$:
+
+$$
+\lim_{n \to \infty} \frac{(n(2 + \frac{3}{n}))^3}{n^3(1 - \frac{1}{n^3})}
+$$
+
+Expand the numerator:
+
+$$
+\lim_{n \to \infty} \frac{n^3(2 + \frac{3}{n})^3}{n^3(1 - \frac{1}{n^3})}
+$$
+
+Cancel $n^3$:
+
+$$
+\lim_{n \to \infty} \frac{(2 + \frac{3}{n})^3}{1 - \frac{1}{n^3}}
+$$
+
+Since $\frac{3}{n} \to 0$ and $\frac{1}{n^3} \to 0$ as $n \to \infty$, we get:
+
+$$
+\frac{2^3}{1} = 8
+$$
+
+### Final Answers:
+$$
+\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \frac{1}{2}
+$$
+
+$$
+\lim_{n \to \infty} \frac{(2n + 3)^3}{n^3 - 1} = 8
+$$
+
+
+
 ### 2. Calculate integrals over the interval \([0, \pi]\)
 
 #### Integral of \( f(x) = 2x + 1 \)
