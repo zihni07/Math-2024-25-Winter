@@ -119,6 +119,8 @@ $$
 \frac{\pi^3}{3} - \frac{0^3}{3} = \frac{\pi^3}{3}
 $$
 
+![alt text](image-1.png)
+
 ---
 
 ### 3. Calculate the area of the region bounded by the lines
