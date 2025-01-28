@@ -95,7 +95,9 @@ $$
 \int (2x + 1) \,dx = x^2 + x
 $$
 
+$$
 Evaluating from \( 0 \) to \( \pi \):
+$$
 
 $$
 (\pi^2 + \pi) - (0^2 + 0) = \pi^2 + \pi
@@ -166,3 +168,4 @@ Thus, the area of the region is:
 $$
 \frac{10}{3}
 $$
+![alt text](image-2.png)
