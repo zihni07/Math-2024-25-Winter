@@ -161,9 +161,10 @@ $$
 \frac{14}{3} - \frac{4}{3} = \frac{10}{3}
 $$
 
+![alt text](image-3.png)
+
 Thus, the area of the region is:
 
 $$
 \frac{10}{3}
 $$
-![alt text](image-2.png)
