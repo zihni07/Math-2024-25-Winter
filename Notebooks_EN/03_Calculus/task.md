@@ -83,16 +83,18 @@ $$
 
 ![alt text](image-4.png)
 ### First Limit:
+
 $$
 \lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n}
 $$
+
 Factor out $n^2$ from both the numerator and denominator:
 
 $$
 \lim_{n \to \infty} \frac{n^2(1 + \frac{3}{n})}{n^2(2 - \frac{2}{n})}
 $$
 
- $n^2$:
+ cancel $n^2$:
 
 $$
 \lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}
@@ -144,7 +146,8 @@ $$
 
 
 
-### 2. Calculate integrals over the interval \([0, \pi]\)
+### 2. Calculate integrals over the interval 
+$\([0, \pi]\)$
 
 #### Integral of \( f(x) = 2x + 1 \)
 
